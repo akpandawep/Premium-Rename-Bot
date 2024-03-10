@@ -47,8 +47,8 @@ async def start(client, message):
 	**Document Or Video** and enter new filename to rename it__
 	""", reply_to_message_id=message.id,
                                  reply_markup=InlineKeyboardMarkup(
-                                     [[InlineKeyboardButton("Sᴜᴘᴘᴏʀᴛ 🌨️"  ,url="https://t.me/Kdramaland")],
-                                      [InlineKeyboardButton("Sᴜʙsᴄʀɪʙᴇ 💖", url="https://youtube.com/@Captain_Snowball")]]))
+                                     [[InlineKeyboardButton("Sᴜᴘᴘᴏʀᴛ 🌨️"  ,url="https://t.me/Team_Roku")],
+                                      [InlineKeyboardButton("Sᴜʙsᴄʀɪʙᴇ 💖", url="https://t.me/Rokubotz")]]))
         return
     if id:
         if old == True:
@@ -60,8 +60,8 @@ async def start(client, message):
 	**Document Or Video** and enter new filename to rename it__
 	""", reply_to_message_id=message.id,
                                          reply_markup=InlineKeyboardMarkup(
-                                             [[InlineKeyboardButton("Sᴜᴘᴘᴏʀᴛ 🌨️"  ,url="https://t.me/Kdramaland")], 
-                                              [InlineKeyboardButton("Sᴜʙsᴄʀɪʙᴇ 💖", url="https://youtube.com/@Captain_Snowball")]]))
+                                             [[InlineKeyboardButton("Sᴜᴘᴘᴏʀᴛ 🌨️"  ,url="https://t.me/Team_Roku")], 
+                                              [InlineKeyboardButton("Sᴜʙsᴄʀɪʙᴇ 💖", url="https://t.me/Rokubotz")]]))
             except:
                 return
         else:
@@ -76,8 +76,8 @@ async def start(client, message):
 	**Document Or Video** and enter new filename to rename it__
 	""", reply_to_message_id=message.id,
                                      reply_markup=InlineKeyboardMarkup(
-                                         [[InlineKeyboardButton("Sᴜᴘᴘᴏʀᴛ 🌨️"  ,url="https://t.me/Kdramaland")], 
-                                          [InlineKeyboardButton("Sᴜʙsᴄʀɪʙᴇ 💖", url="https://youtube.com/@Captain_Snowball")]]))
+                                         [[InlineKeyboardButton("Sᴜᴘᴘᴏʀᴛ 🌨️"  ,url="https://t.me/Team_Roku")], 
+                                          [InlineKeyboardButton("Sᴜʙsᴄʀɪʙᴇ 💖", url="https://t.me/Rokubotz")]]))
 
 
 @Client.on_message(filters.private & (filters.document | filters.audio | filters.video))
